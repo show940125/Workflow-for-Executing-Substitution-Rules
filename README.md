@@ -40,7 +40,7 @@ This document provides a detailed description of the project, including both Chi
 - **系統提示**：
 
   ```plaintext
-  幫我找出上述民法課程逐字稿中所有最明顯的錯字。
+  幫我找出上述逐字稿中所有最明顯的錯字。
   以表格列出，顯示四個欄位：大致的時間戳記、錯誤的詞彙、建議的詞彙（如建議詞彙相同，請相互排在表格的附近）、說明（比如上下文都與某主題&概念相關）
   不要調整原本句子的語氣，校正的方向必須忠於逐字稿原文，主要找出一些容易發生口誤的地方‧‧‧
   ```
@@ -149,7 +149,7 @@ Segment the transcribed text by approximately 50-minute timestamps and use the G
 - **System Prompt**:
 
   ```plaintext
-  Help me identify all the most obvious typos in the above Civil Law course transcript.
+  Help me identify all the most obvious typos in the above transcript.
   Present them in a table with four columns: approximate timestamp, incorrect term, suggested term (if the suggested terms are identical, please place them near each other in the table), and explanation (e.g., context related to a specific topic & concept).
   Do not adjust the original sentence's tone; the correction direction must remain faithful to the original transcript. Focus on identifying areas prone to verbal mistakes...
   ```
