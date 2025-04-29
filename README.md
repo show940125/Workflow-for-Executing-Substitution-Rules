@@ -4,6 +4,14 @@
 
 This document provides a detailed description of the project, including both Chinese and English versions. Please refer to the appropriate language section as needed.
 
+## 2025/4/29 **更新**:因Gemini 2.5 Pro/Flash版本之Thinking Module，其對中文文稿之校對能力已臻完善，足以一次完成約六千五百字之校對作業(總token消耗約20K~30K皆為正常)，認為本專案已無開發實益，爰停止後續更新。
+- **範例prompt**：
+```python
+  扮演台灣刑事訴訟法學者，以您深厚的刑事訴訟法專業知識與嚴謹態度，在完整檢視下列刑事訴訟法課堂逐字稿後，開始校正此逐字稿。重點在於：(1) 刑事訴訟法專有名詞、法律用語、格式之準確性；(2) 相關條文用語、頁數、題號的正確性；(3) 刑事訴訟法理論之用詞是否精確。務必確保其用詞的準確性、專業性與一致性。對於與課程內容無直接關聯之口誤、贅字、重複字，予以校正或移除。最終，請務必維持原始逐字稿的格式，僅呈現校正後的逐字稿內容(含原時間戳記)，無需提供任何額外說明，也不要空行。
+  ```
+
+
+
 ---
 
 ## 目錄 / Table of Contents
@@ -18,6 +26,15 @@ This document provides a detailed description of the project, including both Chi
 # 替代規則執行工作流
 
 本專案透過替代規則對逐字稿執行自動化校正，以提升文稿的準確性與可讀性。下為詳細的工作流程說明。
+- **範例代碼**：
+
+  ```python
+  substitution_rules = [
+      (r"XX", "OO"),
+      # 其他替代規則
+  ]
+  ```
+
 
 ## 目錄
 
